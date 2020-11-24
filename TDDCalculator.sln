@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CAC0F9AA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCalculator.Core.UnitTests", "tests\TDDCalculator.Core.UnitTests\TDDCalculator.Core.UnitTests.csproj", "{EA4526EA-2C32-4391-B6B0-6346A05FE70B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCalculator.Api.UnitTests", "TDDCalculator.Api.UnitTests\TDDCalculator.Api.UnitTests.csproj", "{813E6B6C-BFAF-43DB-BF8E-2CBA42C7BF3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCalculator.Api.UnitTests", "tests\TDDCalculator.Api.UnitTests\TDDCalculator.Api.UnitTests.csproj", "{813E6B6C-BFAF-43DB-BF8E-2CBA42C7BF3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
