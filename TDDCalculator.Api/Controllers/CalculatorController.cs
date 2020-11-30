@@ -14,11 +14,9 @@ namespace TDDCalculator.Api.Controllers
     [ApiController]
     public class CalculatorController : ControllerBase
     {
-        private readonly ICalculator _calculator;
-
-        public CalculatorController(ICalculator calculator)
+        public CalculatorController()
         {
-            _calculator = calculator;
+
         }
 
         [HttpGet("~/api/[controller]")]
@@ -44,40 +42,25 @@ namespace TDDCalculator.Api.Controllers
         [HttpGet]
         public IActionResult Add(decimal a, decimal b)
         {
-            var result = _calculator.Add(a, b);
-
-            return Ok($"Result is: {result}");
+            throw new NotImplementedException();
         }
 
         [HttpGet]
         public IActionResult Subtract(decimal a, decimal b)
         {
-            var result = _calculator.Subtract(a, b);
-
-            return Ok($"Result is: {result}");
+            throw new NotImplementedException();
         }
 
         [HttpGet]
         public IActionResult Multiply(decimal a, decimal b)
         {
-            var result = _calculator.Multiply(a, b);
-
-            return Ok($"Result is: {result}");
+            throw new NotImplementedException();
         }
 
         [HttpGet]
         public IActionResult Divide(decimal a, decimal b)
         {
-            try
-            {
-                var result = _calculator.Divide(a, b);
-
-                return Ok($"Result is: {result}");
-            }
-            catch (CalculatorException e)
-            {
-                return BadRequest(e.ToString());
-            }
+            throw new NotImplementedException();
         }
     }
 }

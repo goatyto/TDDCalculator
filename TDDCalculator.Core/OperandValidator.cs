@@ -9,12 +9,7 @@ namespace TDDCalculator.Core
     {
         public bool ValidateDivisor(decimal divisor)
         {
-            if (divisor == 0)
-            {
-                return false;
-            }
-
-            return true;
+            throw new NotImplementedException();
         }
     }
 }

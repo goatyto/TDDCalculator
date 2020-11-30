@@ -5,36 +5,29 @@ namespace TDDCalculator.Core
 {
     public class Calculator : ICalculator
     {
-        private readonly OperandValidator _operandValidator;
-
         public Calculator()
         {
-            _operandValidator = new OperandValidator();
+
         }
 
         public decimal Add(decimal a, decimal b)
         {
-            return a + b;
+            throw new NotImplementedException();
         }
 
         public decimal Subtract(decimal a, decimal b)
         {
-            return a - b;
+            throw new NotImplementedException();
         }
 
         public decimal Multiply(decimal a, decimal b)
         {
-            return a * b;
+            throw new NotImplementedException();
         }
 
         public decimal Divide(decimal a, decimal b)
         {
-            if (!_operandValidator.ValidateDivisor(b))
-            {
-                throw new CalculatorException("Invalid operation - division by zero!");
-            }
-
-            return a / b;
+            throw new NotImplementedException();
         }
     }
 
